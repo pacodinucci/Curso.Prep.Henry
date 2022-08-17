@@ -241,7 +241,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   vocales = [a,e,i,o,u];
   if (letra.length>1) console.log("Dato incorrecto");
-  else if (letra in vocales) console log("Es vocal");
+  else if (letra in vocales) console.log("Es vocal");
   else console.log("Dato incorrecto");
 
 
