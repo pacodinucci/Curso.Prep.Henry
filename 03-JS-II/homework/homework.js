@@ -145,7 +145,7 @@ function operadoresLogicos(num1, num2, num3) {
     num3++;
     return num3;
   }
-  else if (num1 == 0 || num2 == 0 || num3 == 0) return "Error";
+  else if (num1 === 0 || num2 === 0 || num3 === 0) return "Error";
   else return false; 
 }
 
@@ -155,6 +155,7 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+
 }
 
 function esVerdadero(valor){
