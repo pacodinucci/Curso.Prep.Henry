@@ -110,7 +110,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  return numeros[numeros.length - 1];
+  return Math.max(...numeros);
 }
 
 
