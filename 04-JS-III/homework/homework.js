@@ -72,11 +72,11 @@ function arrayContiene(array, elemento) {
   // Tu código:
   for (i=0;i<array.length;i++) {
     if (elemento === array[i]) {
-      return true;
+      
     }
-    return false;
+    return true;
   }
-
+  return false;
 }
 
 
