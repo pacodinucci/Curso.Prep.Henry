@@ -120,7 +120,7 @@ function multiplicarArgumentos() {
   // Escribe tu código aquí:
   if(arguments.length < 1) return 0;
   producto = 1;
-  for  (i=0;i<arguments.lenth;i++) {
+  for  (i=0;i<arguments.length;i++) {
       producto = producto*arguments[i];
   }
   return producto;
