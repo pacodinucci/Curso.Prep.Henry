@@ -209,7 +209,7 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
   
-  var v = valor;
+  var v = numero;
   var i = 0;
   
   do {
