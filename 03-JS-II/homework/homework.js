@@ -192,7 +192,8 @@ function tablaDelSeis(){
   lista = [];
   for (i=0;i>=10;i++) {
     a = i * 6;
-    return lista.push(a) ;
+    lista.push(a)
+    return lista ;
   }
   
 }
