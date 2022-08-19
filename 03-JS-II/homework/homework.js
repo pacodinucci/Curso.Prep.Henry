@@ -208,7 +208,18 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  
+  var v = valor;
+  var i = 0;
+  
+  do {
+  i = i + 1;
+  v = v + 5;
+  }
+  while (i < 8); 
+    return v;
 }
+
 
 
 // No modificar nada debajo de esta línea
