@@ -87,7 +87,7 @@ function agregarNumeros(numeros) {
   suma = 0;
   for (i=0;i<numeros.length;i++) {
     suma = suma + numeros[i];
-    
+
   }
   return suma;
 }
@@ -97,6 +97,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  suma = 0;
+  for (i=0;i<resultadosTest.length;i++) {
+    suma = suma + resultadosTest[i];
+  }
+  promedio = suma/resultadosTest.length;
+  return promedio;
 }
 
 
@@ -104,6 +110,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  return numeros[numeros.length - 1];
 }
 
 
