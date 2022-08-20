@@ -156,7 +156,7 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   a = String(n);
-  if (a[0] === 9) return true;
+  if (a[0] == 9) return true;
   return false;
 }
 
