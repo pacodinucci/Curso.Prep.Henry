@@ -195,8 +195,10 @@ function mayorACien(array) {
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
   mayorcien = [];
-  for (i=0;i<array;i++) {
-    if (array[i]>100) mayorcien.push(array[i]);
+  for (i=0;i<array.length;i++) {
+    if (array[i]>100) {
+      mayorcien.push(array[i]);
+      }
   }
   return mayorcien;
 }
