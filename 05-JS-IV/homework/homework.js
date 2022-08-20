@@ -7,9 +7,9 @@ function crearGato(nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   const gato = {
-    nombre : "Michi"
+    nombre : this.nombre
   }
-  gato.edad = 3
+  gato.edad = this.edad
   gato.meow = function meow() {
     return "Meow!"
   }
