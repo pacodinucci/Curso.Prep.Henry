@@ -167,7 +167,8 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí  
   arreglo2 = new Set(arreglo);
   final = [...arreglo2];
-  return final.length;
+  if (final.length === 1) return true;
+  return false;
   
 } 
 
