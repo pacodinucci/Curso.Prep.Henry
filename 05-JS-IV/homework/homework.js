@@ -41,8 +41,8 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-  producto = objetoMisterioso[numeroMisterioso] * 5;
-  return producto;
+  return objetoMisterioso[numeroMisterioso] * 5;
+
 
 
 }
