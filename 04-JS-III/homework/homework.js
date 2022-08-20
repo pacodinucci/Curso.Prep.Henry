@@ -183,11 +183,10 @@ function mesesDelAño(array) {
     if (array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
       meses.push(array[i]);
     }
-    else if (meses.length === 3) {
-      return meses;
-    }
-    else return "No se encontraron los meses pedidos"
+
   }
+  if (meses.length < 3) return "No se encontraron los meses pedidos";
+  return meses; 
 }
 
 
