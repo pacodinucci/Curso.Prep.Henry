@@ -135,7 +135,7 @@ function cuentoElementos(arreglo){
     if (arreglo[i]>18) {
       cantidad.push(arreglo[i]);
     }
-  return cantidad;  
+  return cantidad.length; 
   }
 
 
