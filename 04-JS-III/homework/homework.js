@@ -234,12 +234,14 @@ function continueStatement(numero) {
   // Tu código:
   array = [];
   for (i=0;i<10;i++) {
-    numero = numero + 2;
+    
     if (i === 5) {
       continue;
     }
-    else array.push(numero);
-    
+    else {
+      numero = numero + 2;
+      array.push(numero);
+    }
   }
   return array;
 }
