@@ -147,7 +147,7 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
   for(i=0;i<numeroDeDia.length;i++) {
-    if(numeroDeDia[i]>5) return "Es fin de semana";
+    if(numeroDeDia[i] === 1 || numeroDeDia[i] === 7) return "Es fin de semana";
 
   }
   return "Es dia Laboral";
