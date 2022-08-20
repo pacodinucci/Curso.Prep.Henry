@@ -236,7 +236,7 @@ function continueStatement(numero) {
   for (i=0;i<10;i++) {
     numero = numero + 2;
     array.push(numero);
-    if (i == 5) {
+    if (i === 5) {
       continue;
     }
   }
