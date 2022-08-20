@@ -9,7 +9,7 @@ function crearGato(nombre, edad) {
   var gato = {
     nombre : nombre
   }
-  gato.edad = this.edad
+  gato.edad = edad
   gato.meow = function meow() {
     return "Meow!"
   }
