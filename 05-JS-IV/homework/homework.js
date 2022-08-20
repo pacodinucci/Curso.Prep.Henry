@@ -6,7 +6,7 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  const gato = {
+  var gato = {
     nombre : this.nombre
   }
   gato.edad = this.edad
