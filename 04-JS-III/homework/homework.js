@@ -235,14 +235,14 @@ function continueStatement(numero) {
   array = [];
   for (i=0;i<10;i++) {
     numero = numero + 2;
-    array.push(numero);
     if (i === 5) {
       continue;
     }
+    else array.push(numero);
+    
   }
   return array;
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
