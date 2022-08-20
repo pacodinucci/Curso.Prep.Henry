@@ -148,9 +148,9 @@ function diaDeLaSemana(numeroDeDia) {
   //Escribe tu código aquí   
   for(i=0;i<numeroDeDia.length;i++) {
     if(numeroDeDia[i]>5) return "Es fin de semana";
-     
+
   }
-  return "Es dia laboral";
+  return "Es dia Laboral";
 } 
 
 
