@@ -217,8 +217,8 @@ function breakStatement(numero) {
     numero = numero + 2;
     array.push(numero);
     if (i == numero) {
-      break;
       return "Se interrumpió la ejecución"
+      break;
     }
   }
   return array;
