@@ -43,7 +43,7 @@ function agregarStringInvertida() {
   String.prototype.reverse = function () {
     stringInvertida = '';
     for (var i = this.length - 1;i>=0;i--) {
-      stringInvertida = string invertida + this.chartAt(i);
+      stringInvertida = stringInvertida + this.chartAt(i);
     }
   return stringInvertida;  
   }
