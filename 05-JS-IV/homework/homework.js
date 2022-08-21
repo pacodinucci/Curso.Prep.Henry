@@ -69,7 +69,7 @@ function nuevoUsuario(nombre, email, password) {
     email: email,
     password: password
   }
-  return objeto;
+  return usuario;
   
 
 }
