@@ -140,6 +140,8 @@ function sumarLikesDeUsuario(usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
+  suma = sum(usuario.posts['likes']);
+  return suma;
 }
 
 function agregarMetodoCalculoDescuento(producto) {
