@@ -46,6 +46,7 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
   const nuevoArray = array.map(cb);
+  return nuevoArray;
 }
 
 function filter(array) {
