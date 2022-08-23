@@ -1,0 +1,69 @@
+body {
+	margin: 10px;
+}
+
+
+h2 {
+	background-color: blue;
+	color: lightblue;
+	display: inline;
+	font-family: Arial;
+
+}
+
+#DescripcionPersonal {
+	position: relative;
+	right: 0px;
+	background-color: red;
+	z-index: 100;
+	font-family: verdana;
+	color: blanchedalmond;
+}
+
+#Foto {
+	position: absolute;
+	left: 20px;
+	top: -110px;
+	}
+
+#Skills {
+	width: 600px;
+	height: 250px;
+	text-align: justify;
+	position: relative;
+	left: 600px;
+	top: -15px;
+	}
+
+#textoskills {
+	position: relative;
+	top: -20px;
+}
+
+#exptexto {
+	position: relative;
+	top: -20px;
+}
+
+#ExperienciaLaboral {
+	position: relative;
+	left: 600px;
+	
+}
+
+#Educacion {
+	position: relative;
+	z-index: 99;
+	background-color: lightpink;
+}
+
+#textohobbies {
+	position: relative;
+	top: -20px;
+}
+
+#Hobbies {
+	position: relative;
+	left: 600px;
+	top: -70px;
+}
