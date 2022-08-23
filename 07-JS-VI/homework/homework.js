@@ -54,12 +54,13 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   var nuevoArray = [];
-  for ( var i=0;i<array.length;i++) {
-    if(array[i][0] === 'a') {
-      nuevoArray.push(array[i]);
+  var lista = ['abel','carlos','armando'];
+  lista.forEach(function(elemento){
+    if(elemento[0] === 'a') {
+      nuevoArray.push(elemento);
     }
-  }
-  return nuevoArray;
+  })
+  console.log(nuevoArray);
 }
 
 // No modificar nada debajo de esta línea
